@@ -1,0 +1,48 @@
+.basketContent {
+  background: #ffffff;
+  border: 1px solid #f3f3f3;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  width: 325px;
+  height: 120px;
+  margin-top: 20px;
+
+  .basket-img {
+    margin: 20px 20px auto 20px;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+
+    span {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      padding-bottom: 8px;
+    }
+
+    b {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      color: #000000;
+    }
+  }
+
+  .basket-btn {
+    margin: auto 20px;
+    opacity: 0.5;
+    cursor: pointer;
+  }
+
+  .basket-btn:hover {
+    opacity: 1;
+    transition: opacity 0.2s ease-in;
+  }
+}
